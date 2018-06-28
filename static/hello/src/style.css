@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    position: relative;
+    margin: 40px 120px;
+    min-height: 32px;
+}
+#container img{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    display: none;
+    transition:transform .8s;
+}

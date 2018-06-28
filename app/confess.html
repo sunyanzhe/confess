@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>confess</title>
+    <link rel="stylesheet" href="../static/hello/src/style.css">
+</head>
+<body>
+    <div id="container">
+        <img src="../static/hello/img/dui.png" alt="dui">
+        <img src="../static/hello/img/bu.png" alt="bu">
+        <img src="../static/hello/img/qi.png" alt="qi">
+        <img src="../static/hello/img/dou.png" alt=",">
+        <img src="../static/hello/img/gei.png" alt="gei">
+        <img src="../static/hello/img/nin.png" alt="nin">
+        <img src="../static/hello/img/dao.png" alt="dao">
+        <img src="../static/hello/img/qian.png" alt="qian">
+    </div>
+</body>
+<script src="../sea-modules/seajs/seajs/2.2.0/sea.js"></script>
+<script>
+    seajs.config({
+        base:'../sea-modules/',
+        alias:{
+            'jquery':'jquery/jquery/1.10.1/jquery.js'
+        }
+    });
+    seajs.use('../static/hello/src/main');
+</script>
+</html>
